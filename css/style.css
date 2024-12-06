@@ -8,7 +8,7 @@
 }
 
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    transition: 0.3s;
+    transition: 0.3s ease;
     
 }
 .header .container ul li{
@@ -73,7 +73,10 @@
 .main {
     padding: 60px 0 0;
     height: calc(100vh - 125px);
-    background-color: black;
+    /* background-color: black; */
+    background-image: url('../img/background4.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 .main .container{
    
@@ -107,7 +110,6 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-    transition: 0.3s;
     display: inline-block;
     
 }
@@ -123,4 +125,8 @@
 }
 @media(max-width:767px){
     
+}
+/* services */
+.services{
+    height: 800px;
 }
